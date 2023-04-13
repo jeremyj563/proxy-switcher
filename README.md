@@ -15,5 +15,5 @@ Proxy-Switcher is a simple `bash` script to activate or deactivate any HTTP/S pr
 
 ## Usage
 
-- To set up a proxy: `$ source proxy-switcher.sh http(s)://host:port`
-- To remove a proxy: `$ source proxy-switcher.sh`
+- Turn on proxy: `$ source proxy-switcher.sh http(s)://host:port`
+- Turn off proxy: `$ source proxy-switcher.sh`

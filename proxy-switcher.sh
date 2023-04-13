@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function setup {
+function on {
   echo -e "\e[32mSet-up the proxy:\e[0m ${proxy}"
 
   export http_proxy="${proxy}"
@@ -9,7 +9,7 @@ function setup {
   export HTTPS_PROXY="${proxy}"
 }
 
-function remove {
+function off {
   echo -e "\e[32mRemove the proxy\e[0m"
 
   unset http_proxy
@@ -20,8 +20,8 @@ function remove {
 
 if [[ $1 != "" ]]; then
   proxy=$1
-  remove
-  setup
+  off
+  on
 else
-  remove
+  off
 fi

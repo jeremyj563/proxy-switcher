@@ -11,12 +11,7 @@
 
 # Proxy-Switcher.sh
 
-Proxy-Switcher is a simple script to activate or deactivate any HTTP proxy on Linux Mint or Ubuntu. Proxy-Switcher also applies the proxy settings to npm, yarn and git tools if they are intalled.
-This is usefull when going through a lot of networks !
-
-## Installation
-
-1.  Clone the repository (or download/unzip) into a directory.
+Proxy-Switcher is a simple `bash` script to activate or deactivate any HTTP/S proxy configuration.
 
 ## Usage
 
